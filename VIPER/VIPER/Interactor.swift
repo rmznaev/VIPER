@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+// object
+// protocol
+// reference to presenter

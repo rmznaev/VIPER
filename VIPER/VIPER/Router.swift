@@ -6,3 +6,6 @@
 //
 
 import Foundation
+
+// object
+// entry point for module

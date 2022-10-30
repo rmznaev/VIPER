@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+// ViewConroller
+// protocol
+// reference presenter
