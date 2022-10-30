@@ -9,3 +9,17 @@ import Foundation
 
 // object
 // entry point for module
+
+protocol AnyRouter {
+    static func start() -> AnyRouter
+}
+
+class UserRouter: AnyRouter {
+    static func start() -> AnyRouter {
+        let router = UserRouter()
+        
+        // Assign VIP
+        
+        return router
+    }
+}
