@@ -24,9 +24,18 @@ protocol AnyPresenter {
 class UserPresenter: AnyPresenter {
     var view: AnyView?
     var router: AnyRouter?
-    var interactor: AnyInteractor?
+    var interactor: AnyInteractor? {
+        didSet {
+            interactor?.getUsers()
+        }
+    }
     
     func interactorDidFetchUsers(with result: Result<[User], Error>) {
-        
+        switch result {
+        case .success(let users):
+            view?.update(with: users)
+        case .failure(let error):
+            view?.update(with: error.localizedDescription)
+        }
     }
 }

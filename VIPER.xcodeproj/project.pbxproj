@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C4E45870290EB74200551DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E4586F290EB74200551DAD /* AppDelegate.swift */; };
 		C4E45872290EB74200551DAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E45871290EB74200551DAD /* SceneDelegate.swift */; };
-		C4E45874290EB74200551DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E45873290EB74200551DAD /* ViewController.swift */; };
 		C4E45879290EB74400551DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E45878290EB74400551DAD /* Assets.xcassets */; };
 		C4E4587C290EB74400551DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E4587A290EB74400551DAD /* LaunchScreen.storyboard */; };
 		C4E45885290EB7B700551DAD /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E45884290EB7B700551DAD /* View.swift */; };
@@ -23,7 +22,6 @@
 		C4E4586C290EB74200551DAD /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E4586F290EB74200551DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E45871290EB74200551DAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4E45873290EB74200551DAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4E45878290EB74400551DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E4587B290EB74400551DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4E4587D290EB74400551DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 				C4E45883290EB79000551DAD /* VIPER */,
 				C4E4586F290EB74200551DAD /* AppDelegate.swift */,
 				C4E45871290EB74200551DAD /* SceneDelegate.swift */,
-				C4E45873290EB74200551DAD /* ViewController.swift */,
 				C4E45878290EB74400551DAD /* Assets.xcassets */,
 				C4E4587A290EB74400551DAD /* LaunchScreen.storyboard */,
 				C4E4587D290EB74400551DAD /* Info.plist */,
@@ -161,7 +158,6 @@
 				C4E45889290EB7D900551DAD /* Presenter.swift in Sources */,
 				C4E45885290EB7B700551DAD /* View.swift in Sources */,
 				C4E4588B290EB7E700551DAD /* Entity.swift in Sources */,
-				C4E45874290EB74200551DAD /* ViewController.swift in Sources */,
 				C4E45887290EB7D200551DAD /* Interactor.swift in Sources */,
 				C4E45870290EB74200551DAD /* AppDelegate.swift in Sources */,
 				C4E45872290EB74200551DAD /* SceneDelegate.swift in Sources */,
